@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(249, 234, 215);
+}
+
+.navbar{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    transition: background-color 0.4s;
+}
+.img_logo{
+    width: 210px;
+    height: 80px;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(197, 166, 15);
+    font-family: Dosis;
+    align-items: center;   
+}
+
+.navbar ul li a:hover{
+    color: white(184, 134, 7);
+}
+.navbar.active{
+    background-color: rgb(197, 166, 15);
+}
+.navbar.active ul li a{
+    color: white;
+}
+
+.contact-us h2 ,p{
+    display: flex;
+    justify-content: center;  
+}
+
+.contact-us h2{
+    font-family: Dancing Script;
+}
+
+.contact-us p{
+    font-family:Dosis;
+}
